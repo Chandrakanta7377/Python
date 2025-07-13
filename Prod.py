@@ -1,8 +1,8 @@
-# calculator.py
+# prod.py
 import sys
 
 if len(sys.argv) != 3:
-    print("Usage: python calculator.py <num1> <num2>")
+    print("Usage: python prod.py <num1> <num2>")
     sys.exit(1)
 
 a = int(sys.argv[1])
